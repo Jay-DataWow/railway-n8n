@@ -17,6 +17,4 @@ ARG ENCRYPTION_KEY
 
 ENV N8N_ENCRYPTION_KEY=$ENCRYPTION_KEY
 
-RUN npm install -g ethers
-
 CMD ["n8n start"]
